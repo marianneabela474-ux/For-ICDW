@@ -24,7 +24,7 @@
     text-align: left;
   }
     a {
-    color: rgb(228, 129, 255);
+    color: #DC95FF;
     text-decoration: none;
   }
   h5 {
@@ -49,7 +49,7 @@
   float: left;
   align-items: center;
   width: 48%;
-  background-color: rgb(191, 240, 255);
+  background-color: #B8DAED;
   border-style: solid;
   border-color: rgb(151, 227, 250);
   border-width: 5px;
@@ -70,6 +70,10 @@
   }
   /* Custom star cursor */
   body {
-    cursor: url("StarCursor.png") 16 16
-    auto;
+    cursor: url(./StarCursor.png) 16 16 auto;
+    
+    background-image: 
+    url(https://pngtree.com/freebackground/starry-night-sky-with-clouds-a-background_16571825.html)
+    
+    
   }
