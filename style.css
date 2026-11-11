@@ -29,11 +29,12 @@
   }
   h5 {
     color: rgb(200, 162, 200);
+    mask-border-repeat: round;
   }
   .column {
   float: left;
   align-items: center;
-  width: 32.50%;
+  width: 31%;
   background-color: rgb(191, 240, 255);
   border-style: solid;
   border-color: rgb(151, 227, 250);
@@ -47,7 +48,7 @@
   .column2 {
   float: left;
   align-items: center;
-  width: 49%;
+  width: 48%;
   background-color: rgb(191, 240, 255);
   border-style: solid;
   border-color: rgb(151, 227, 250);
@@ -55,4 +56,20 @@
   }
   p {
   font-size: large
+  }
+  .wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  background: linear-gradient(rgb(233, 207, 236));
+  padding: 30px;
+  box-shadow: 0 2px 8px
+  rgba(0,0,0,0.1) ;
+  }
+  pre {
+  font-family: serif
+  }
+  /* Custom star cursor */
+  body {
+    cursor: url("StarCursor.png") 16 16
+    auto;
   }
