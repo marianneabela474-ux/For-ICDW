@@ -32,10 +32,21 @@
     width: 100%;
     color: #76528d;
   }
-  .column {
+  .column_contacts {
   float: left;
   align-items: center;
-  width: 48%;
+  max-width: 290px;
+  width: 55%;
+  background-color: #97b1d1;
+  border-style: solid;
+  border-color: #6e8fb3;
+  border-width: 5px;
+  }
+  .column_skills {
+  float: left;
+  align-items: center;
+  max-width: 290px;
+  width: 55%;
   background-color: #97b1d1;
   border-style: solid;
   border-color: #6e8fb3;
@@ -65,9 +76,6 @@
   padding: 30px;
   box-shadow: 0 2px 8px
   rgba(0,0,0,0.1) ;
-  }
-  pre {
-  font-family: serif
   }
   .panning-bg {
     width: 100%;
