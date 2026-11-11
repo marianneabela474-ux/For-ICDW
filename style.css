@@ -97,8 +97,6 @@
     /* Custom star cursor */
   body {
     cursor: url('https://cdn.cursors-4u.net/previews/starry-sun-c5238d99-32.webp') 32 32, auto !important;
-    position: relative;
-    isolation: isolate;
   }
   @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
   body {
