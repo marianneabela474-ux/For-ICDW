@@ -83,7 +83,7 @@
     background-image: url(./starry\ background\(light\).jpg);
     background-size: cover;
     background-repeat: repeat;
-    animation: panBackground 10s linear infinite;
+    animation: panBackground 20s linear infinite;
   }
 
   @keyframes panBackground {
