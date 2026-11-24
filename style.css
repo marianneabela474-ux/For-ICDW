@@ -76,7 +76,7 @@
     width: 100%;
     height: 100vh;
     background-image: url(./starry\ background\(light\).jpg);
-    background-size: cover;
+    background-size: 120% auto;
     background-repeat: repeat;
     animation: panBackground 10s linear infinite;
   }
