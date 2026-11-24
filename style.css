@@ -33,8 +33,8 @@
     color: #76528d;
   }
   .column_contacts {
-  float: left;
-  align-items: center;
+  display: inline-block; 
+  place-items: center;
   max-width: 290px;
   width: 55%;
   background-color: #97b1d1;
@@ -43,23 +43,18 @@
   border-width: 5px;
   }
   .column_skills {
-  float: left;
-  align-items: center;
-  max-width: 290px;
+  display: inline-block; 
+  place-items: center; 
+  max-width: 280px;
   width: 55%;
   background-color: #97b1d1;
   border-style: solid;
   border-color: #6e8fb3;
   border-width: 5px;
   }
-  .row:after {
-  content: "";
-  display: table;
-  clear: both;
-  }
   .column2 {
-  float: left;
-  align-items: center;
+  display: inline-block; 
+  place-items: center;
   width: 48%;
   background-color: #97b1d1;
   border-style: solid;
